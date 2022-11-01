@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="3" >
+
+  <test  name="TestOnChrome" >
+  <parameter name="browser" value="chrome"></parameter>
+<parameter name="url" value="http://practice.automationtesting.in/my-account/"></parameter>
+  	<classes>
+  		<class name="Indyfin_Testcase.Home_page" />
+  	</classes>
+  </test> <!-- Test -->
+  
+  <!--<test  name="Test1Onfirefox" >
+  	<parameter name="browser" value="firefox"></parameter>
+	<parameter name="url" value="http://practice.automationtesting.in/my-account/"></parameter>
+  	<classes>
+  		<class name="Indyfin_Testcase.Home_page" />
+  	</classes>
+  </test>
+  
+  <test  name="Test1OnI" >
+  	<parameter name="browser" value="ie"></parameter>
+	<parameter name="url" value="https://dev.indyfin.com/#/login"></parameter>
+  	<classes>
+  		<class name="Indyfin_Testcase.Home_page" />
+  	</classes>
+  </test> -->
+</suite> <!-- Suite -->

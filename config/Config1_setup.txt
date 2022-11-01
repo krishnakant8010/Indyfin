@@ -1,0 +1,5 @@
+gmail_username=krishnakant@colaborarlabs.com
+gmail_password=SuperDuper@1
+gmail_port=587
+gmail_from=notifications@indyfin.com
+to=krishnakant@colaborarlabs.com

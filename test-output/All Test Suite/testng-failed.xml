@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="TestOnChrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://practice.automationtesting.in/my-account/"/>
+    <classes>
+      <class name="Indyfin_Testcase.Home_page">
+        <methods>
+          <include name="Exit"/>
+          <include name="RegisterUser"/>
+          <include name="Browser_Set_Up" invocation-numbers="0"/>
+          <include name="login_user"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- Indyfin_Testcase.Home_page -->
+    </classes>
+  </test> <!-- TestOnChrome(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
