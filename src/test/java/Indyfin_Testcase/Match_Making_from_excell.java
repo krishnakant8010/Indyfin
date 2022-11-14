@@ -6,22 +6,19 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
-
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Match_Making_from_excell {
 
 	public static WebDriver driver;
 
-	@BeforeTest
+	@Test(priority=1)
 	public void Match_making_Start() {
 		// WebDriver driver;
 
@@ -33,7 +30,7 @@ public class Match_Making_from_excell {
 		// driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
-	@Test(priority = 1)
+	@Test(priority=2)
 	public void Lending_Page() {
 		String Currect_URL = driver.getCurrentUrl();
 		// String EXpect_URL="https://stage-match.indyfin.com/";
@@ -45,7 +42,7 @@ public class Match_Making_from_excell {
 		}
 	}
 	
-	@Test
+	@Test(priority=3)
 	public void Match_Advsior() throws IOException, Exception {
 
 		File file = new File("Data\\Matching+value.xlsx");

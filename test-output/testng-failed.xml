@@ -7,6 +7,7 @@
         <methods>
           <include name="Match_making_Start"/>
           <include name="Match_Advsior"/>
+          <include name="Lending_Page"/>
         </methods>
       </class> <!-- Indyfin_Testcase.Match_Making_from_excell -->
     </classes>
