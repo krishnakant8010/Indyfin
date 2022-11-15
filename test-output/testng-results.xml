@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-14T18:38:32 IST" name="Default suite" finished-at="2022-11-14T18:44:50 IST" duration-ms="377562">
+  <suite started-at="2022-11-15T16:30:16 IST" name="Default suite" finished-at="2022-11-15T16:30:27 IST" duration-ms="10680">
     <groups>
     </groups>
-    <test started-at="2022-11-14T18:38:32 IST" name="Default test" finished-at="2022-11-14T18:44:50 IST" duration-ms="377562">
-      <class name="Indyfin_Testcase.Match_Making_from_excell">
-        <test-method signature="Match_making_Start()[pri:1, instance:Indyfin_Testcase.Match_Making_from_excell@1623b78d]" started-at="2022-11-14T18:38:32 IST" name="Match_making_Start" finished-at="2022-11-14T18:38:39 IST" duration-ms="7312" status="PASS">
+    <test started-at="2022-11-15T16:30:16 IST" name="Default test" finished-at="2022-11-15T16:30:27 IST" duration-ms="10680">
+      <class name="Indyfin_Testcase.Indyfin_Profile">
+        <test-method signature="Update_Indyfin_Profile()[pri:0, instance:Indyfin_Testcase.Indyfin_Profile@158d2680]" started-at="2022-11-15T16:30:16 IST" name="Update_Indyfin_Profile" finished-at="2022-11-15T16:30:27 IST" duration-ms="10650" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Match_making_Start -->
-        <test-method signature="Lending_Page()[pri:2, instance:Indyfin_Testcase.Match_Making_from_excell@1623b78d]" started-at="2022-11-14T18:38:39 IST" name="Lending_Page" finished-at="2022-11-14T18:38:39 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Lending_Page -->
-        <test-method signature="Match_Advsior()[pri:3, instance:Indyfin_Testcase.Match_Making_from_excell@1623b78d]" started-at="2022-11-14T18:38:39 IST" name="Match_Advsior" finished-at="2022-11-14T18:44:50 IST" duration-ms="370216" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Match_Advsior -->
-      </class> <!-- Indyfin_Testcase.Match_Making_from_excell -->
+        </test-method> <!-- Update_Indyfin_Profile -->
+      </class> <!-- Indyfin_Testcase.Indyfin_Profile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

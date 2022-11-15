@@ -42,7 +42,7 @@ public class Match_Making_from_excell {
 		}
 	}
 	
-	@Test(priority=3)
+	@Test(priority=1)
 	public void Match_Advsior() throws IOException, Exception {
 
 		File file = new File("Data\\Matching+value.xlsx");

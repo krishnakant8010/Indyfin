@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Indyfin_Testcase.Match_Making_from_excell">
+      <class name="Indyfin_Testcase.Indyfin_Profile">
         <methods>
-          <include name="Match_making_Start"/>
-          <include name="Match_Advsior"/>
-          <include name="Lending_Page"/>
+          <include name="Update_Indyfin_Profile"/>
         </methods>
-      </class> <!-- Indyfin_Testcase.Match_Making_from_excell -->
+      </class> <!-- Indyfin_Testcase.Indyfin_Profile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

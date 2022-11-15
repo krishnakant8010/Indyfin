@@ -73,8 +73,8 @@ public class GmailPageObjects {
 			Thread.sleep(1000);
 			System.out.println("Wait for element visibility");
 			//@SuppressWarnings("deprecation")
-			WebDriverWait wait=new WebDriverWait(driver, 15);
-			wait.until(ExpectedConditions.visibilityOf(element));		
+		//	/WebDriverWait wait=new WebDriverWait(driver, 15);
+		//	wait.until(ExpectedConditions.visibilityOf(element));		
 		}
 		catch (Exception e){
 			e.printStackTrace();
