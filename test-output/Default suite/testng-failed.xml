@@ -5,7 +5,12 @@
     <classes>
       <class name="Indyfin_Testcase.Indyfin_Profile">
         <methods>
-          <include name="Update_Indyfin_Profile"/>
+          <include name="EnterLoginDetails"/>
+          <include name="Update_Profile_data"/>
+          <include name="LunchApp_URL"/>
+          <include name="NavigateToProfile"/>
+          <include name="VerifyLogin"/>
+          <include name="BroswerLunch"/>
         </methods>
       </class> <!-- Indyfin_Testcase.Indyfin_Profile -->
     </classes>

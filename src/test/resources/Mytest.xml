@@ -5,56 +5,40 @@
 	<parameter name="Url" value="https://stage.indyfin.com/#/" />
 	<parameter name="username" value="quality@indyfin.com" />
 	<parameter name="password" value="SuperDuper@1" />
-<parameter name="SleepTime" value="2000" />
+	<parameter name="SleepTime" value="2000" />
 
 
-<!-- <test name="BrobserLunch">
+	<test name="BrobserLunch">
 		<classes>
 			<class name="Indyfin_Testcase.Browser_Lunch">
 				<methods>
 					<include name="BroswerLunch" />
 					<include name="LunchApp_URL" />
-
 				</methods>
 			</class>
-		</classes>
-	</test> -->
-	<test name="IndyfinLogin">
-		<classes>
-		
 			<class name="Indyfin_Testcase.Login">
 				<methods>
-
 					<include name="EnterLoginDetails" />
 					<include name="VerifyLogin" />
 				</methods>
 			</class>
-			
-		</classes>
-	</test>
-	<test name="IndyfinLogin" enabled="false">
-		<classes>
 			<class name="Indyfin_Testcase.Indyfin_Profile">
 				<methods>
-					<include name="LunchApp" />
-					<include name="EnterLoginDetails" />
-					<include name="VerifyLogin" />
-				</methods>
-			</class>
-		</classes>
-	</test>
-
-	<test name="IndyfinProfilePage" enabled="false">
-		<classes>
-			<class name="Indyfin_Testcase.Indyfin_Profile">
-				<methods>
-					<include name="LunchApp" />
-					<include name="EnterLoginDetails" />
 					<include name="NavigateToProfile" />
-					<include name="Verify_Advsior_profile_page" />
 					<include name="Update_Profile_data" />
 				</methods>
 			</class>
 		</classes>
 	</test>
+	<!--<test name="IndyfinLogin"> <classes> <class name="Indyfin_Testcase.Login"> 
+		<methods> <include name="EnterLoginDetails" /> <include name="VerifyLogin" 
+		/> </methods> </class> </classes> </test> <test name="IndyfinLogin" enabled="false"> 
+		<classes> <class name="Indyfin_Testcase.Indyfin_Profile"> <methods> <include 
+		name="LunchApp" /> <include name="EnterLoginDetails" /> <include name="VerifyLogin" 
+		/> </methods> </class> </classes> </test> <test name="IndyfinProfilePage" 
+		enabled="false"> <classes> <class name="Indyfin_Testcase.Indyfin_Profile"> 
+		<methods> <include name="LunchApp" /> <include name="EnterLoginDetails" /> 
+		<include name="NavigateToProfile" /> <include name="Verify_Advsior_profile_page" 
+		/> <include name="Update_Profile_data" /> </methods> </class> </classes> 
+		</test> -->
 </suite> 

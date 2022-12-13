@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="3" parallel="tests" name="TestOnChrome(failed)">
-    <parameter name="browser" value="chrome"/>
-    <parameter name="url" value="http://practice.automationtesting.in/my-account/"/>
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="SuperDuper@1"/>
+  <parameter name="browserName" value="Chrome"/>
+  <parameter name="SleepTime" value="2000"/>
+  <parameter name="Url" value="https://stage.indyfin.com/#/"/>
+  <parameter name="username" value="quality@indyfin.com"/>
+  <test thread-count="5" name="BrobserLunch(failed)">
     <classes>
-      <class name="Indyfin_Testcase.Home_page">
+      <class name="Indyfin_Testcase.Indyfin_Profile">
         <methods>
-          <include name="RegisterUser"/>
+          <include name="Update_Profile_data"/>
+          <include name="NavigateToProfile"/>
+          <include name="BroswerLunch"/>
         </methods>
-      </class> <!-- Indyfin_Testcase.Home_page -->
+      </class> <!-- Indyfin_Testcase.Indyfin_Profile -->
     </classes>
-  </test> <!-- TestOnChrome(failed) -->
+  </test> <!-- BrobserLunch(failed) -->
 </suite> <!-- Failed suite [Suite] -->
