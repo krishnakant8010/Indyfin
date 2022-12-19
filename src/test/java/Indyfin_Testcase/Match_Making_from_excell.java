@@ -46,7 +46,7 @@ public class Match_Making_from_excell {
 	public void Match_Advsior() throws IOException, Exception {
 
 		File file = new File("Data\\Matching+value.xlsx");
-		// System.out.println(file);
+		 //System.out.println(file);
 		FileInputStream inputstrem = new FileInputStream(file);
 		XSSFWorkbook workbook = new XSSFWorkbook(inputstrem);
 		XSSFSheet sheet = workbook.getSheet("Sheet1");
@@ -56,7 +56,7 @@ public class Match_Making_from_excell {
 		for (int i = 1; i <= row_count; i++) {
 			int TestCaseID = (int) sheet.getRow(i).getCell(0).getNumericCellValue();
 			String Topic =  sheet.getRow(i).getCell(1).getStringCellValue();	
-			// System.out.println(Topic);
+			System.out.println(Topic);
 			String Age =  sheet.getRow(i).getCell(2).getStringCellValue();
 			String income  = sheet.getRow(i).getCell(3).getStringCellValue();
 			String Profession  = sheet.getRow(i).getCell(4).getStringCellValue();
@@ -72,11 +72,12 @@ public class Match_Making_from_excell {
 		       }
 		       String Excell_result=(Arrays.toString(results_first.toArray()));
 		       
-		       System.out.println("Expacted Advsior " + Excell_result);
+		       System.out.println("Expacted Advsior list" + Excell_result);
 
 			//Topic
+		       
 			if(Topic != "") {
-				Thread.sleep(3000);
+				Thread.sleep(4000);
 				driver.findElement(By.xpath("//span[contains(text(),'"+Topic+"')]")).click();
 				driver.findElement(By.xpath("//span[contains(text(),'NEXT ')]")).click();
 			}else {

@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Indyfin_Testcase.Indyfin_Profile" class="method navigator-link" hash-for-method="Update_Profile_data">Update_Profile_data</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">9 methods,   9 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,6 +102,21 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Indyfin_Testcase.Advisor_Feedback" class="method navigator-link" hash-for-method="Add_new_clinet">Add_new_clinet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Indyfin_Testcase.Advisor_Feedback" class="method navigator-link" hash-for-method="All_Clinets_Page">All_Clinets_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Indyfin_Testcase.CloseBrowser" class="method navigator-link" hash-for-method="CloseAPP">CloseAPP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Indyfin_Testcase.Login" class="method navigator-link" hash-for-method="EnterLoginDetails(quality@indyfin.com, SuperDuper@1)">EnterLoginDetails(quality@indyfin.com, SuperDuper@1)</a> <!-- method navigator-link -->
@@ -128,12 +129,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Indyfin_Testcase.Indyfin_Profile" class="method navigator-link" hash-for-method="NavigateToProfile">NavigateToProfile</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Indyfin_Testcase.Advisor_Feedback" class="method navigator-link" hash-for-method="Search_And_Update_Client">Search_And_Update_Client</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Indyfin_Testcase.Advisor_Feedback" class="method navigator-link" hash-for-method="Send_Feedback_to_Client">Send_Feedback_to_Client</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Indyfin_Testcase.Login" class="method navigator-link" hash-for-method="VerifyLogin">VerifyLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Indyfin_Testcase.Advisor_Feedback" class="method navigator-link" hash-for-method="loading_feedback_Page">loading_feedback_Page</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -148,43 +159,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Indyfin_Testcase.Indyfin_Profile</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Update_Profile_data">
-                  </a> <!-- Update_Profile_data -->
-                  <span class="method-name">Update_Profile_data</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (186, -860)
-  (Session info: chrome=108.0.5359.99)
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;LAPTOP-JL84H6HT&apos;, ip: &apos;192.168.150.237&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1de2eb69168dafb17e3486ce70a2d546, clickElement {id=2394853f-cea3-4b16-ba42-b9a0b10b7f21}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\CL-009\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54969}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54969/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (1de2eb69168dafb17e3486ce70a2d546)] -&gt; id: about_read_more]
-Session ID: 1de2eb69168dafb17e3486ce70a2d546
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at Indyfin_Testcase.Indyfin_Profile.Update_Profile_data(Indyfin_Profile.java:68)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -227,14 +201,57 @@ Session ID: 1de2eb69168dafb17e3486ce70a2d546
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Indyfin_Testcase.Indyfin_Profile</span>
+              <span class="class-name">Indyfin_Testcase.Advisor_Feedback</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="NavigateToProfile">
-                  </a> <!-- NavigateToProfile -->
-                  <span class="method-name">NavigateToProfile</span>
+                  <a name="Add_new_clinet">
+                  </a> <!-- Add_new_clinet -->
+                  <span class="method-name">Add_new_clinet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="All_Clinets_Page">
+                  </a> <!-- All_Clinets_Page -->
+                  <span class="method-name">All_Clinets_Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_And_Update_Client">
+                  </a> <!-- Search_And_Update_Client -->
+                  <span class="method-name">Search_And_Update_Client</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Send_Feedback_to_Client">
+                  </a> <!-- Send_Feedback_to_Client -->
+                  <span class="method-name">Send_Feedback_to_Client</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loading_feedback_Page">
+                  </a> <!-- loading_feedback_Page -->
+                  <span class="method-name">loading_feedback_Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Indyfin_Testcase.CloseBrowser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseAPP">
+                  </a> <!-- CloseAPP -->
+                  <span class="method-name">CloseAPP</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -254,7 +271,7 @@ Session ID: 1de2eb69168dafb17e3486ce70a2d546
   &lt;parameter name=&quot;SleepTime&quot; value=&quot;2000&quot;/&gt;
   &lt;parameter name=&quot;Url&quot; value=&quot;https://stage.indyfin.com/#/&quot;/&gt;
   &lt;parameter name=&quot;username&quot; value=&quot;quality@indyfin.com&quot;/&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;BrobserLunch&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Advisor_Feedback&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Indyfin_Testcase.Browser_Lunch&quot;&gt;
         &lt;methods&gt;
@@ -268,14 +285,23 @@ Session ID: 1de2eb69168dafb17e3486ce70a2d546
           &lt;include name=&quot;VerifyLogin&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- Indyfin_Testcase.Login --&gt;
-      &lt;class name=&quot;Indyfin_Testcase.Indyfin_Profile&quot;&gt;
+      &lt;class name=&quot;Indyfin_Testcase.Advisor_Feedback&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;NavigateToProfile&quot;/&gt;
-          &lt;include name=&quot;Update_Profile_data&quot;/&gt;
+          &lt;include name=&quot;loading_feedback_Page&quot;/&gt;
+          &lt;include name=&quot;All_Clinets_Page&quot;/&gt;
+          &lt;include name=&quot;Add_new_clinet&quot;/&gt;
+          &lt;include name=&quot;Search_And_Update_Client&quot;/&gt;
+          &lt;include name=&quot;Send_Feedback_to_Client&quot;/&gt;
+          &lt;include name=&quot;Delete_Client&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- Indyfin_Testcase.Indyfin_Profile --&gt;
+      &lt;/class&gt; &lt;!-- Indyfin_Testcase.Advisor_Feedback --&gt;
+      &lt;class name=&quot;Indyfin_Testcase.CloseBrowser&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;CloseAPP&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Indyfin_Testcase.CloseBrowser --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- BrobserLunch --&gt;
+  &lt;/test&gt; &lt;!-- Advisor_Feedback --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -287,7 +313,7 @@ Session ID: 1de2eb69168dafb17e3486ce70a2d546
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">BrobserLunch (3 classes)</span>
+                <span class="test-name">Advisor_Feedback (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -313,27 +339,43 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Update_Profile_data')
-data.setCell(0, 2, 'Indyfin_Testcase.Indyfin_Profile')
-data.setCell(0, 3, 30552);
+data.setCell(0, 1, 'loading_feedback_Page')
+data.setCell(0, 2, 'Indyfin_Testcase.Advisor_Feedback')
+data.setCell(0, 3, 15222);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'LunchApp_URL')
-data.setCell(1, 2, 'Indyfin_Testcase.Browser_Lunch')
-data.setCell(1, 3, 17651);
+data.setCell(1, 1, 'Search_And_Update_Client')
+data.setCell(1, 2, 'Indyfin_Testcase.Advisor_Feedback')
+data.setCell(1, 3, 10433);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'VerifyLogin')
 data.setCell(2, 2, 'Indyfin_Testcase.Login')
-data.setCell(2, 3, 10179);
+data.setCell(2, 3, 10039);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'EnterLoginDetails')
-data.setCell(3, 2, 'Indyfin_Testcase.Login')
-data.setCell(3, 3, 3528);
+data.setCell(3, 1, 'LunchApp_URL')
+data.setCell(3, 2, 'Indyfin_Testcase.Browser_Lunch')
+data.setCell(3, 3, 9324);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'NavigateToProfile')
-data.setCell(4, 2, 'Indyfin_Testcase.Indyfin_Profile')
-data.setCell(4, 3, 3338);
+data.setCell(4, 1, 'Send_Feedback_to_Client')
+data.setCell(4, 2, 'Indyfin_Testcase.Advisor_Feedback')
+data.setCell(4, 3, 5432);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'All_Clinets_Page')
+data.setCell(5, 2, 'Indyfin_Testcase.Advisor_Feedback')
+data.setCell(5, 3, 5125);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'EnterLoginDetails')
+data.setCell(6, 2, 'Indyfin_Testcase.Login')
+data.setCell(6, 3, 2773);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'CloseAPP')
+data.setCell(7, 2, 'Indyfin_Testcase.CloseBrowser')
+data.setCell(7, 3, 1329);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Add_new_clinet')
+data.setCell(8, 2, 'Indyfin_Testcase.Advisor_Feedback')
+data.setCell(8, 3, 914);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -353,7 +395,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">6 ignored methods</span>
+            <span class="header-content">9 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -366,13 +408,24 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">Indyfin_Testcase.Indyfin_Profile</span>
+              <span class="ignored-class-name">Indyfin_Testcase.Advisor_Feedback</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">EnterLoginDetails</span>
                 <br/>
                 <span class="ignored-method-name">LunchApp_URL</span>
                 <br/>
+                <span class="ignored-method-name">Delete_Client</span>
+                <br/>
                 <span class="ignored-method-name">VerifyLogin</span>
+                <br/>
+                <span class="ignored-method-name">BroswerLunch</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Indyfin_Testcase.CloseBrowser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">LunchApp_URL</span>
                 <br/>
                 <span class="ignored-method-name">BroswerLunch</span>
                 <br/>
@@ -393,31 +446,48 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">LunchApp_URL(https://stage.indyfin.com/#/)</span>
-                <span class="method-start">5057 ms</span>
+                <span class="method-start">2653 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Indyfin_Testcase.Login</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">EnterLoginDetails(quality@indyfin.com, SuperDuper@1)</span>
-                <span class="method-start">22730 ms</span>
+                <span class="method-start">11984 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">VerifyLogin</span>
-                <span class="method-start">26259 ms</span>
+                <span class="method-start">14759 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">Indyfin_Testcase.Indyfin_Profile</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Indyfin_Testcase.Advisor_Feedback</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">NavigateToProfile</span>
-                <span class="method-start">36445 ms</span>
+                <span class="method-name">loading_feedback_Page</span>
+                <span class="method-start">24798 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">Update_Profile_data</span>
-                <span class="method-start">39794 ms</span>
+                <span class="method-name">All_Clinets_Page</span>
+                <span class="method-start">40020 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_new_clinet</span>
+                <span class="method-start">45145 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Search_And_Update_Client</span>
+                <span class="method-start">46060 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Send_Feedback_to_Client</span>
+                <span class="method-start">56493 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Indyfin_Testcase.CloseBrowser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CloseAPP</span>
+                <span class="method-start">61926 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

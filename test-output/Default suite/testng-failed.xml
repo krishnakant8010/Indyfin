@@ -3,16 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Indyfin_Testcase.Indyfin_Profile">
+      <class name="Indyfin_Testcase.Match_Making_from_excell">
         <methods>
-          <include name="EnterLoginDetails"/>
-          <include name="Update_Profile_data"/>
-          <include name="LunchApp_URL"/>
-          <include name="NavigateToProfile"/>
-          <include name="VerifyLogin"/>
-          <include name="BroswerLunch"/>
+          <include name="Match_Advsior"/>
         </methods>
-      </class> <!-- Indyfin_Testcase.Indyfin_Profile -->
+      </class> <!-- Indyfin_Testcase.Match_Making_from_excell -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

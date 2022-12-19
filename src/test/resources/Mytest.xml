@@ -8,7 +8,43 @@
 	<parameter name="SleepTime" value="2000" />
 
 
-	<test name="BrobserLunch">
+	<test name="BrobserLunch" enabled="false">
+		<classes>
+			<class name="Indyfin_Testcase.Browser_Lunch">
+				<methods>
+					<include name="BroswerLunch" />
+					<include name="LunchApp_URL" />
+				</methods>
+			</class>
+			<class name="Indyfin_Testcase.CloseBrowser">
+				<methods>
+					<include name="CloseAPP" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Login" enabled="false" >
+		<classes>
+			<class name="Indyfin_Testcase.Browser_Lunch">
+				<methods>
+					<include name="BroswerLunch" />
+					<include name="LunchApp_URL" />
+				</methods>
+			</class>
+			<class name="Indyfin_Testcase.Login">
+				<methods>
+					<include name="EnterLoginDetails" />
+					<include name="VerifyLogin" />
+				</methods>
+			</class>
+			<class name="Indyfin_Testcase.CloseBrowser">
+				<methods>
+					<include name="CloseAPP" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="ProfileUpdate" enabled="false">
 		<classes>
 			<class name="Indyfin_Testcase.Browser_Lunch">
 				<methods>
@@ -28,17 +64,42 @@
 					<include name="Update_Profile_data" />
 				</methods>
 			</class>
+			<class name="Indyfin_Testcase.CloseBrowser">
+				<methods>
+					<include name="CloseAPP" />
+				</methods>
+			</class>
 		</classes>
 	</test>
-	<!--<test name="IndyfinLogin"> <classes> <class name="Indyfin_Testcase.Login"> 
-		<methods> <include name="EnterLoginDetails" /> <include name="VerifyLogin" 
-		/> </methods> </class> </classes> </test> <test name="IndyfinLogin" enabled="false"> 
-		<classes> <class name="Indyfin_Testcase.Indyfin_Profile"> <methods> <include 
-		name="LunchApp" /> <include name="EnterLoginDetails" /> <include name="VerifyLogin" 
-		/> </methods> </class> </classes> </test> <test name="IndyfinProfilePage" 
-		enabled="false"> <classes> <class name="Indyfin_Testcase.Indyfin_Profile"> 
-		<methods> <include name="LunchApp" /> <include name="EnterLoginDetails" /> 
-		<include name="NavigateToProfile" /> <include name="Verify_Advsior_profile_page" 
-		/> <include name="Update_Profile_data" /> </methods> </class> </classes> 
-		</test> -->
+	<test name="Advisor_Feedback" enabled="true">
+		<classes>
+			<class name="Indyfin_Testcase.Browser_Lunch">
+				<methods>
+					<include name="BroswerLunch" />
+					<include name="LunchApp_URL" />
+				</methods>
+			</class>
+			<class name="Indyfin_Testcase.Login">
+				<methods>
+					<include name="EnterLoginDetails" />
+					<include name="VerifyLogin" />
+				</methods>
+			</class>
+			<class name="Indyfin_Testcase.Advisor_Feedback">
+				<methods>
+					<include name="loading_feedback_Page" />
+					<include name="All_Clinets_Page" />
+					<include name="Add_new_clinet" />
+					<include name="Search_And_Update_Client" />
+					<include name="Send_Feedback_to_Client" />
+					<include name="Delete_Client" />
+				</methods>
+			</class>
+			<class name="Indyfin_Testcase.CloseBrowser">
+				<methods>
+					<include name="CloseAPP" />
+				</methods>
+			</class>
+		</classes>
+	</test>
 </suite> 

@@ -6,15 +6,19 @@
   <parameter name="SleepTime" value="2000"/>
   <parameter name="Url" value="https://stage.indyfin.com/#/"/>
   <parameter name="username" value="quality@indyfin.com"/>
-  <test thread-count="5" name="BrobserLunch(failed)">
+  <test thread-count="5" name="Advisor_Feedback(failed)">
     <classes>
-      <class name="Indyfin_Testcase.Indyfin_Profile">
+      <class name="Indyfin_Testcase.Advisor_Feedback">
         <methods>
-          <include name="Update_Profile_data"/>
-          <include name="NavigateToProfile"/>
+          <include name="Search_And_Update_Client"/>
+          <include name="Send_Feedback_to_Client"/>
+          <include name="Add_new_clinet"/>
+          <include name="Delete_Client"/>
+          <include name="loading_feedback_Page"/>
+          <include name="All_Clinets_Page"/>
           <include name="BroswerLunch"/>
         </methods>
-      </class> <!-- Indyfin_Testcase.Indyfin_Profile -->
+      </class> <!-- Indyfin_Testcase.Advisor_Feedback -->
     </classes>
-  </test> <!-- BrobserLunch(failed) -->
+  </test> <!-- Advisor_Feedback(failed) -->
 </suite> <!-- Failed suite [Suite] -->
