@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <parameter name="password" value="SuperDuper@1"/>
-  <parameter name="browserName" value="Chrome"/>
-  <parameter name="SleepTime" value="2000"/>
-  <parameter name="Url" value="https://stage.indyfin.com/#/"/>
-  <parameter name="username" value="quality@indyfin.com"/>
-  <test thread-count="5" name="Advisor_Feedback(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Indyfin_Testcase.Advisor_Feedback">
+      <class name="Indyfin_Testcase.Match_Making_from_excell">
         <methods>
-          <include name="Search_And_Update_Client"/>
-          <include name="Send_Feedback_to_Client"/>
-          <include name="Add_new_clinet"/>
-          <include name="Delete_Client"/>
-          <include name="loading_feedback_Page"/>
-          <include name="All_Clinets_Page"/>
-          <include name="BroswerLunch"/>
+          <include name="Match_Advsior"/>
         </methods>
-      </class> <!-- Indyfin_Testcase.Advisor_Feedback -->
+      </class> <!-- Indyfin_Testcase.Match_Making_from_excell -->
     </classes>
-  </test> <!-- Advisor_Feedback(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

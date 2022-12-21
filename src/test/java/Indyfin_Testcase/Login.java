@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class Login extends Browser_Lunch {
+public class Login extends Browser_Launch {
 
 	@Parameters({ "username", "password" })
 	@Test

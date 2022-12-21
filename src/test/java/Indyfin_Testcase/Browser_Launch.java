@@ -9,12 +9,12 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Browser_Lunch {
+public class Browser_Launch {
 	public static WebDriver driver;
 
 	@Parameters("browserName")
 	@BeforeTest
-	public void BroswerLunch(String browserName) {
+	public void BroswerLaunch(String browserName) {
 
 		switch (browserName) {
 		case "Chrome":
@@ -34,7 +34,7 @@ public class Browser_Lunch {
 
 	@Parameters("Url")
 	@Test
-	public void LunchApp_URL(String Url) throws IOException {
+	public void LaunchApp_URL(String Url) throws IOException {
 
 		driver.get(Url);
 		driver.getTitle();

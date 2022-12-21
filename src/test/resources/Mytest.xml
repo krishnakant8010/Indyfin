@@ -8,12 +8,12 @@
 	<parameter name="SleepTime" value="2000" />
 
 
-	<test name="BrobserLunch" enabled="false">
+	<test name="BrowserLaunch" enabled="true">
 		<classes>
-			<class name="Indyfin_Testcase.Browser_Lunch">
+			<class name="Indyfin_Testcase.Browser_Launch">
 				<methods>
-					<include name="BroswerLunch" />
-					<include name="LunchApp_URL" />
+					<include name="BroswerLaunch" />
+					<include name="LaunchApp_URL" />
 				</methods>
 			</class>
 			<class name="Indyfin_Testcase.CloseBrowser">
@@ -23,12 +23,12 @@
 			</class>
 		</classes>
 	</test>
-	<test name="Login" enabled="false" >
+	<test name="Login" enabled="true" >
 		<classes>
-			<class name="Indyfin_Testcase.Browser_Lunch">
+			<class name="Indyfin_Testcase.Browser_Launch">
 				<methods>
-					<include name="BroswerLunch" />
-					<include name="LunchApp_URL" />
+					<include name="BroswerLaunch" />
+					<include name="LaunchApp_URL" />
 				</methods>
 			</class>
 			<class name="Indyfin_Testcase.Login">
@@ -46,10 +46,10 @@
 	</test>
 	<test name="ProfileUpdate" enabled="false">
 		<classes>
-			<class name="Indyfin_Testcase.Browser_Lunch">
+			<class name="Indyfin_Testcase.Browser_Launch">
 				<methods>
-					<include name="BroswerLunch" />
-					<include name="LunchApp_URL" />
+					<include name="BroswerLaunch" />
+					<include name="LaunchApp_URL" />
 				</methods>
 			</class>
 			<class name="Indyfin_Testcase.Login">
@@ -73,10 +73,10 @@
 	</test>
 	<test name="Advisor_Feedback" enabled="true">
 		<classes>
-			<class name="Indyfin_Testcase.Browser_Lunch">
+			<class name="Indyfin_Testcase.Browser_Launch">
 				<methods>
-					<include name="BroswerLunch" />
-					<include name="LunchApp_URL" />
+					<include name="BroswerLaunch" />
+					<include name="LaunchApp_URL" />
 				</methods>
 			</class>
 			<class name="Indyfin_Testcase.Login">
